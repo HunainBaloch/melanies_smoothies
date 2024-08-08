@@ -5,7 +5,7 @@ import requests
 import pandas as pd
 
 # Write directly to the app
-st.title("Example Streamlit App :cup_with_straw:")
+st.title(":cup_with_straw: Customize your Smoothie! :cup_with_straw:")
 st.write(
     """Choose the fruits you want in your custom Smoothie!"""
 )
