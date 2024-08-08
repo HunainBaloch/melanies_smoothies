@@ -1,5 +1,5 @@
 # requirements.txt
-streamlit==1.31.1
+streamlit
 snowflake-connector-python
 snowflake-snowpark-python
 pyarrow
