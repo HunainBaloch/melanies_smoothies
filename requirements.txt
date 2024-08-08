@@ -1,5 +1,5 @@
 # requirements.txt
 streamlit
 snowflake-connector-python
-snowflake-snowpark-python
+snowflake-snowpark-python==1.14.0  # Adjust the version based on compatibility
 pyarrow
