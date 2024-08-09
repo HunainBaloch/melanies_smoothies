@@ -49,7 +49,7 @@ if ingredients_list:
 
         # Fetch and display nutritional information
         st.subheader(f'{fruit_chosen} Nutrition Information')
-        fruityvice_response = requests.get(f"https://fruityvice.com/api/fruit/{search_on_value}")
+        fruityvice_response = requests.get(f"https://fruityvice.com/api/fruit/" + search_on)
         
         if fruityvice_response.status_code == 200:
             fv_data = fruityvice_response.json()
